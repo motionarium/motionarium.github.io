@@ -27,14 +27,3 @@ img
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
-
-.discord_button
-{
-    background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-}
