@@ -10,6 +10,16 @@ img
     transition: 0.5s;
 }
 
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
 .center_style
 {
     position: absolute;
