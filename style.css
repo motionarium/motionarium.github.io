@@ -1,13 +1,39 @@
-img:hover
+img.grey:hover
 {
     filter: grayscale(0);
 }
 
-img
+img.grey
 {
     filter: grayscale(1);
     transition: 0.5s;
     height: 100px;
+}
+
+img.greyback
+{
+    filter: grayscale(0);
+    transition: 0.5s;
+    height: 300px;
+    border-radius: 150px;
+}
+
+img.greyback:hover
+{
+    filter: grayscale(1);
+}
+
+body.info
+{
+    background-image: url(img/shapka_info.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+h1.info, p.info
+{
+    font-family: 'Arial';
+    color: white;
 }
 
 button 
