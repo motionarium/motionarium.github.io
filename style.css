@@ -1,6 +1,5 @@
 img:hover
 {
-    filter: blur(0px);
     filter: grayscale(0);
 }
 
@@ -8,9 +7,11 @@ img
 {
     filter: grayscale(1);
     transition: 0.5s;
+    height: 100px;
 }
 
-button {
+button 
+{
 	background: none;
 	color: inherit;
 	border: none;
