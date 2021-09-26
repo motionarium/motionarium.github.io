@@ -7,7 +7,7 @@ img.grey
 {
     filter: grayscale(1);
     transition: 0.5s;
-    height: 100px;
+    height: 75px;
 }
 
 img.greyback
@@ -32,6 +32,7 @@ body.info
 
 h1.info, p.info
 {
+
     font-family: 'Arial';
     color: white;
 }
