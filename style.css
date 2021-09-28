@@ -23,6 +23,18 @@ img.greyback:hover
     filter: grayscale(1);
 }
 
+body.dark-theme {
+    background-color: rgb(32, 32, 32);
+}
+
+p.theme {
+    font-size: 20px; 
+}
+
+body {
+    background-color: white;
+}
+
 body.info
 {
     background-image: url(img/shapka_info.jpg);
@@ -32,7 +44,6 @@ body.info
 
 h1.info, p.info
 {
-
     font-family: 'Arial';
     color: white;
 }
