@@ -23,12 +23,10 @@ img.greyback:hover
     filter: grayscale(1);
 }
 
-body.dark-theme {
-    background-color: rgb(32, 32, 32);
-}
-
-p.theme {
-    font-size: 20px; 
+@media (prefers-color-scheme: dark) {
+    body.theme {
+        background-color: rgb(32, 32, 32);
+    }
 }
 
 body {
