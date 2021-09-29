@@ -18,7 +18,7 @@ img.greyback
 {
     filter: grayscale(0);
     transition: 0.5s;
-    height: 300px;
+    height: 225px;
     border-radius: 150px;
 }
 
@@ -46,6 +46,7 @@ body.info
 
 h1.info, p.info
 {
+    text-shadow: 0 0 2px;
     color: white;
 }
 
