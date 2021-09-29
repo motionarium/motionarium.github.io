@@ -1,3 +1,7 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html { font-family: 'Inter', sans-serif; }
+
 img.grey:hover
 {
     filter: grayscale(0);
@@ -42,7 +46,6 @@ body.info
 
 h1.info, p.info
 {
-    font-family: 'Arial';
     color: white;
 }
 
