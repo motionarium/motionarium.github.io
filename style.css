@@ -76,3 +76,13 @@ button
 {
     margin-top: 60px;
 }
+
+a:link.donate, a:visited.donate, a:active.donate {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+a:hover.donate {
+     text-decoration: underline;
+     color: rgb(44, 44, 44);
+  }
