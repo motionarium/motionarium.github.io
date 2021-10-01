@@ -24,6 +24,18 @@ img.greyback:hover
     filter: grayscale(1);
 }
 
+img.donate
+{
+    filter: grayscale(0);
+    transition: 1s;
+}
+
+img.donate:hover
+{
+    filter: grayscale(1);
+}
+
+
 @media (prefers-color-scheme: dark) {
     .theme {
         background-color: rgb(32, 32, 32);
@@ -31,7 +43,10 @@ img.greyback:hover
     }
 }
 
-body { background-color: white; }
+body { 
+    background-color: white;
+    color: black; 
+}
 
 body.info
 {
@@ -68,12 +83,3 @@ button
 }
 
 .column2 { margin-top: 60px; }
-
-a:link.donate, a:visited.donate, a:active.donate {
-    text-decoration: none;
-}
-  
-a:hover.donate {
-     text-decoration: underline;
-     color:rgb(177, 195, 255)
-}
