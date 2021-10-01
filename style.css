@@ -2,17 +2,14 @@
 
 html { font-family: 'Inter', sans-serif; }
 
-img.grey:hover
-{
-    filter: grayscale(0);
-}
-
 img.grey
 {
     filter: grayscale(1);
     transition: 0.5s;
     height: 75px;
 }
+
+img.grey:hover { filter: grayscale(0); }
 
 img.greyback
 {
@@ -28,15 +25,13 @@ img.greyback:hover
 }
 
 @media (prefers-color-scheme: dark) {
-    body.theme {
+    .theme {
         background-color: rgb(32, 32, 32);
-
+        color: white;
     }
 }
 
-body {
-    background-color: white;
-}
+body { background-color: white; }
 
 body.info
 {
@@ -72,17 +67,13 @@ button
     text-align: center;
 }
 
-.column2
-{
-    margin-top: 60px;
-}
+.column2 { margin-top: 60px; }
 
 a:link.donate, a:visited.donate, a:active.donate {
     text-decoration: none;
-    color: rgb(0, 0, 0);
-  }
+}
   
 a:hover.donate {
      text-decoration: underline;
-     color: rgb(44, 44, 44);
-  }
+     color:rgb(177, 195, 255)
+}
