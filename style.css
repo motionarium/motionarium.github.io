@@ -19,22 +19,13 @@ img.greyback
     border-radius: 150px;
 }
 
-img.greyback:hover
-{
-    filter: grayscale(1);
-}
+img.greyback:hover, img.donate:hover { filter: grayscale(1); }
 
 img.donate
 {
     filter: grayscale(0);
     transition: 1s;
 }
-
-img.donate:hover
-{
-    filter: grayscale(1);
-}
-
 
 @media (prefers-color-scheme: dark) {
     .theme {
