@@ -1,0 +1,40 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: rgb(12, 12, 12);
+    color: white;
+}
+
+.orange {
+    color: #8f8f8f;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.orange:hover { 
+    color: orange; 
+    text-shadow: 0 0 2px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+a { text-decoration: none; }
+
+img {
+    filter: grayscale(1);
+    height: 32px; 
+    transition: 0.5s;
+}
+
+img:hover {
+    filter: grayscale(0);
+}
