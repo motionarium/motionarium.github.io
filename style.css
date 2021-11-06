@@ -37,6 +37,11 @@ img {
     filter: grayscale(1);
     height: 32px; 
     transition: 0.5s;
+    margin: 5px;
+}
+
+.img {
+    margin: 15px;
 }
 
 img:hover { filter: grayscale(0); }
