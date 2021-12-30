@@ -15,6 +15,7 @@ body {
     color: #8f8f8f;
     text-decoration: none;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .orange:hover { 
@@ -40,8 +41,6 @@ img {
     margin: 5px;
 }
 
-.img {
-    margin: 15px;
-}
+.img { margin: 15px; }
 
 img:hover { filter: grayscale(0); }
