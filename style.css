@@ -1,26 +1,16 @@
 @import url('https://rsms.me/inter/inter.css');
 
-html {
-    font-family: 'Inter', sans-serif;
+html { 
+    font-family: 'Inter', sans-serif; 
     background: rgb(12, 12, 12);
-    color: white;
+    color: #cecece;
+    box-shadow: 0 -75px 100px -120px rgb(255, 150, 58) inset;
+    animation: background 5s infinite;
 }
 
-body {
+body { 
     margin: 0;
-    padding: 0;
-}
-
-.orange {
-    color: #8f8f8f;
-    text-decoration: none;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-.orange:hover { 
-    color: orange; 
-    text-shadow: 0 0 2px;
+    padding: 0; 
 }
 
 .center {
@@ -32,15 +22,48 @@ body {
     text-align: center;
 }
 
-a { text-decoration: none; }
+@keyframes background {
+    50% {
+      box-shadow: 0 -200px 100px -200px rgb(12, 12, 12) inset;
+    }
+}
 
 img {
     filter: grayscale(1);
     height: 32px; 
     transition: 0.5s;
     margin: 5px;
+    transform: rotate(-30deg);
 }
 
-.img { margin: 15px; }
+img:hover { 
+    filter: grayscale(0); 
+    transform: rotate(0deg);
+}
 
-img:hover { filter: grayscale(0); }
+.donate {
+    filter: grayscale(1);
+    height: 32px;
+    transform: rotate(0deg);
+    margin: 15px;
+}
+
+.donate:hover { 
+    filter: grayscale(0);
+    transform: rotate(0deg); 
+}
+
+.ds {
+    cursor: pointer;
+}
+
+a { 
+    color: #cecece;
+    text-decoration: none;
+    transition: 0.5s; 
+}
+
+a.cw:hover { 
+    color: orange; 
+    text-shadow: 0 0 2px;
+}
