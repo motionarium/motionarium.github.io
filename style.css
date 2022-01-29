@@ -9,7 +9,7 @@ html {
 }
 
 body { 
-    margin: 0;
+    margin: 0; 
     padding: 0; 
 }
 
@@ -33,27 +33,19 @@ img {
     height: 32px; 
     transition: 0.5s;
     margin: 5px;
-    transform: rotate(-30deg);
 }
 
-img:hover { 
-    filter: grayscale(0); 
-    transform: rotate(0deg);
-}
+img:hover { filter: grayscale(0); }
 
 .donate {
     filter: grayscale(1);
     height: 32px;
-    transform: rotate(0deg);
     margin: 15px;
 }
 
-.donate:hover { 
-    filter: grayscale(0);
-    transform: rotate(0deg); 
-}
+.donate:hover { filter: grayscale(0); }
 
-.ds {
+.ds1 {
     cursor: pointer;
 }
 
