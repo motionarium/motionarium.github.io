@@ -35,7 +35,11 @@ img {
     margin: 5px;
 }
 
-img:hover { filter: grayscale(0); }
+img:hover { 
+    filter: grayscale(0);
+    height: 40px;
+    margin: 7px;
+}
 
 .donate {
     filter: grayscale(1);
