@@ -25,4 +25,18 @@ document.addEventListener("DOMContentLoaded", function () {
         .type('o_O')
         .go();
     })
-    
+
+document.addEventListener("DOMContentLoaded", function () {
+    new TypeIt("#type3", {
+        speed: 125,
+        loop: true,
+        nextStringDelay: 750,
+        deleteSpeed: 150,
+        cursor: false,
+        })
+        .type('donate.')
+        .delete()
+        .type('back.')
+        .go();
+        })
+        
