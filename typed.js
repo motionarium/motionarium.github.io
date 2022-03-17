@@ -42,4 +42,3 @@ document.addEventListener("DOMContentLoaded", function () {
         .pause(750)
         .go();
         })
-        
