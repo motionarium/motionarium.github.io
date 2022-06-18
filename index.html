@@ -1,69 +1,60 @@
+<!DOCTYPE HTML>
 <html>
 <head>
-    <title>obnova</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;600&display=swap');
-        body {
-            background: rgb(31, 31, 31); 
-            color: white;
-            font-family: 'Roboto Mono', monospace;
-            cursor: default;
-        }
-        
-        p.head { 
-            font-weight: bold;
-            font-size: 25px;
-            margin-bottom: -5px; 
-            margin-top: 20px;
-        }
-        
-        p { font-size: 15px; }
-        
-        span.tuned { 
-            font-size: 20px;
-            font-weight: bold;
-            color: rgb(167, 215, 255);
-            transition: 0.5s;
-        }
-
-        span.tuned:hover {
-            cursor: pointer;
-            text-shadow: 0 0 3px rgb(85, 159, 255)
-        }
-        
-        a { text-decoration: none; }
-
-        img { transition: 1s; }
-
-        img:hover { box-shadow: 4px 4px 8px 0px rgb(39, 60, 87); } 
-
-        .center {
-            text-align: center;
-            position: absolute;
-            left: 50%; top: 50%;
-            transform: translate(-50%,-50%);
-        }
-
-        .sorry {
-            padding-top: 5px;
-            width: 250px;
-            height: 20px;
-            font-size: 10px;
-            background: rgba(8, 8, 8, 0.753);
-        }
-    </style>
+    <title>motionarium.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script src="discord.js"></script>
 </head>
 <body>
+    <p class="head"><a href="index.html"><img class="imgc" src="img/icon.png" height="45"> motionarium.</a></p>
     <div class="center">
-    <div class="wrapper">
-        <img src="cat.jpg" onclick="alert('котике)')" width="250" height="">
-        <p class="center sorry">прастити за технические шаколадки((</p>
-        <p class="head">Обновление сайта</p>    
-        <p>Сайт на фулл рекоде. Начнём работать после обновления<br>
-        Stay <a href="https://t.me/motionshitpost/"><span class="tuned">TUNED</span></a><br>
-		18.06.2022 20:00</p>
-    </div>
+        <p class="first">
+            <div class="icon">
+                <a href="https://vk.com/oghackpepe/">
+                <img class="imgc i" src="img/vk.svg" height="40">
+                <p class="i">vk</p></a>
+            </div>
+            <span class="blue">•</span>
+            <div class="icon">
+                <a href="https://t.me/hpbio/">
+                <img class="imgc i" src="img/tg.svg" height="40">
+                <p class="i">telegram</p></a>
+            </div>
+            <span class="blue">•</span>
+            <div class="icon">
+                <a onclick="copydiscord()">
+                <img class="imgc i" src="img/ds.svg" height="40">
+                <p class="i">discord</p></a>
+            </div>
+            <span class="blue">•</span> 
+            <div class="icon">
+                <a href="https://github.com/motionarium">
+                <img class="imgc i" src="img/github.svg" height="40">
+                <p class="i">github</p></a>
+            </div>
+            <span class="blue">•</span> 
+            <div class="icon">
+                <a href="https://www.youtube.com/channel/UCs8az7NZrJgYOXY_YdBtOpQ">
+                <img class="imgc i" src="img/yt.svg" height="40">
+                <p class="i">youtube</p></a>
+            </div>
+            <span class="blue">•</span> 
+            <div class="icon">
+                <a rel="me" href="https://mastodon.ml/@motionarium">
+                <img class="imgc i" src="img/mastodon.svg" height="40">
+                <p class="i">mastodon</p></a>
+            </div>
+        </p>
+        <p class="second">
+            <div class="icon">
+                <a href="donate.html">
+                <img class="imgc i" src="img/donate.svg" height="40">
+                <p class="i">donate</p></a>
+            </div>
+        </p>
+        <p id="ds" style="display: none; pointer-events: none;">ID Discord скопирован в буфер обмена!</p>
     </div>
 </body>
 </html>
