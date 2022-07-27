@@ -57,3 +57,15 @@ a:hover {
     color: rgb(197, 215, 255);
     cursor: pointer;
 }
+
+.mobile {
+    text-align: center;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+
+@media (max-width: 925px) { .center, .head { display: none } }
+@media (min-width: 925px) { .mobile { display: none } }
+
