@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;500&display=swap');
+
 body {
     background: rgb(25, 25, 25);
     color: white;
@@ -38,7 +39,7 @@ p.i {
 div.icon {
     color: white;
     filter: brightness(200%) contrast(80%); 
-    transition: 0.5s
+    transition: 0.5s;
 }
 
 div.icon:hover {
@@ -46,7 +47,14 @@ div.icon:hover {
     color: rgb(197, 215, 255);
     cursor: pointer;
 }
-        
+
+img.i {
+    margin: 4px;
+    transition: 0.5s 
+}
+
+img.i:hover { height: 37px }
+
 a { 
     text-decoration: none;
     color: white;
@@ -68,4 +76,5 @@ a:hover {
 
 @media (max-width: 925px) { .center, .head { display: none } }
 @media (min-width: 926px) { .mobile { display: none } }
+
 
