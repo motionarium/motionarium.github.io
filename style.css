@@ -74,6 +74,12 @@ a:hover {
 }
 
 
+#ds {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
 @media (max-width: 925px) { .center, .head { display: none } }
 @media (min-width: 926px) { .mobile { display: none } }
 
