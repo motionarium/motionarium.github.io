@@ -36,6 +36,18 @@ p.i {
 
 .icon { display: inline-block }
 
+.header {
+    color: white;
+    filter: brightness(200%) contrast(80%); 
+    transition: 0.5s;
+}
+
+.header:hover {
+    filter: brightness(100%) contrast(100%);
+    color: rgb(197, 215, 255);
+    cursor: pointer;
+}
+
 div.icon {
     color: white;
     filter: brightness(200%) contrast(80%); 
