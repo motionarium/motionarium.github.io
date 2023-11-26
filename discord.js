@@ -6,6 +6,6 @@ async function copydiscord() {
         }
         catch (err) {
             console.error('Ошибка: ', err);
-            alert(';w;#7576')
+            alert('motionarium')
         }
 }
