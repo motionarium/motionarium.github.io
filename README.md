@@ -1,1 +1,3 @@
-# [![motionarium.top!](https://i.imgur.com/N9fTSP9.png)](https://motionarium.top)
+<p align="center">
+  <a href="https://motionarium.top/"><img src="https://i.imgur.com/uuhRvYN.png" alt="motionarium.top"/></a>
+</p>
