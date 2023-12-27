@@ -1,3 +1,1 @@
-# [motionarium.top!](https://motionarium.top)
-### Сайт имеет открытый исходный код, так что любой желающий может посмотреть говнокод начинающего HTML-программиста!
-### FULL RECODE
+# [![motionarium.top!](https://i.imgur.com/N9fTSP9.png)](motionarium.top)
