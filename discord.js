@@ -1,6 +1,6 @@
 async function copydiscord() {
         try {
-            await navigator.clipboard.writeText(';w;#7576');
+            await navigator.clipboard.writeText('motionarium');
             ds.style.display='block';
             setTimeout("ds.style.display='none'", 2000);
         }
