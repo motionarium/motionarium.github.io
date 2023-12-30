@@ -26,10 +26,9 @@ html {
 
 #p {
     text-align: center;
-    position: absolute;
-    left: 50%; top: 58%;
-    transform: translate(-50%,-50%);
     display: none;
+    transition: 1s;
+    animation: animated2 2s;
 }
 
 a { 
@@ -70,4 +69,7 @@ img.pic:hover { height: 48px; filter: opacity(100%) }
 }
 
 @keyframes animated1 { from { top: -40% } }
-@keyframes animated2 { from { left: -40% } }
+@keyframes animated2 { 
+    from { filter: opacity(10%); }
+    to { filter: opacity(100%); } 
+}
