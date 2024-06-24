@@ -1,85 +1,39 @@
+/* global */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 html {
-    background-color: rgb(14, 14, 14);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
     color: white;
-    font-family: 'Verdana';
+    font-family: 'Inter', sans-serif;
+    cursor: default;
+    animation: back_anim 30s infinite linear;
 }
 
-span {
-	font-weight: bold;
-	animation: anim_font 1s infinite alternate;
-}
-
-#head {
-    text-align: center;
-    position: absolute;
-    left: 50%; top: 50%;
-    transform: translate(-50%,-50%);
-    cursor: pointer;
-}
-
+/* head */
 .head {
     text-align: center;
     position: absolute;
-    cursor: pointer;
     left: 50%; top: 50%;
     transform: translate(-50%,-50%);
-    animation: animated1 2s;
-	
 }
-.t { animation: animated 1s infinite alternate; }
+svg[class="head"] { filter: drop-shadow(1px -1px 10px #49bc549d); }
+img[class="head"] { filter: opacity(50%); }
+
+/* social */
+div[class="head_social"] { font-size: 16px; width: 100%; }
+div[class="head_social"] span { margin: 50px; filter: opacity(50%); transition: 1s; }
+div[class="head_social"] span:hover { filter: opacity(100%); cursor: pointer; }
+div[class="head_social"] span[class="coming"] { filter: opacity(25%); }
+div[class="head_social"] a { text-decoration: none; color: white; filter: opacity(50%) }
+
+/* div[class="social"] { cursor: default; } */
 
 
-#p {
-    text-align: center;
-    display: none;
-    transition: 1s;
-    animation: animated2 2s;
-}
+div[class="social"] img { height: 32px; margin: 5px; filter: opacity(50%); transition: 300ms linear; fill: white; } 
+div[class="social"] img:hover { height: 42px; filter: opacity(100%); cursor: pointer; }
 
-a { 
-    filter: opacity(50%);
-    text-decoration: none;
-    color: white;
-    transition: 1s;
-}
 
-a:hover {
-    filter: opacity(100%);
-    color: #69C89B;
-    text-shadow: #488669 1px 0 5px;
-    cursor: pointer;
-}
 
-img.pic {
-    filter: opacity(50%); 
-    height: 32px;
-    transition: 1s;
-    padding: 5px;
-}
-
-img.pic:hover { height: 48px; filter: opacity(100%) }
-
-#ds {
-    filter: opacity(50%);
-    font-weight: bold;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: 1s;
-}
-
-@keyframes animated {
-    from { height: 85px; }
-    to { height: 100px; }
-}
-
-@keyframes anim_font {
-    from { font-size: 12px; } 
-	to { font-size: 16px; }
-}
-
-@keyframes animated1 { from { top: -40% } }
-@keyframes animated2 { 
-    from { filter: opacity(10%); }
-    to { filter: opacity(100%); } 
-}
+/* ds */
+div[id="ds"] { font-size: 16px; filter: opacity(50%); }

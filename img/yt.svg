@@ -1,90 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-
-<svg
-   version="1.1"
-   id="Layer_1"
-   x="0px"
-   y="0px"
-   viewBox="0 0 461.001 461.001"
-   style="enable-background:new 0 0 461.001 461.001;"
-   xml:space="preserve"
-   sodipodi:docname="yt.svg"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><defs
-   id="defs12391" /><sodipodi:namedview
-   id="namedview12389"
-   pagecolor="#ffffff"
-   bordercolor="#000000"
-   borderopacity="0.25"
-   inkscape:showpageshadow="2"
-   inkscape:pageopacity="0.0"
-   inkscape:pagecheckerboard="0"
-   inkscape:deskcolor="#d1d1d1"
-   showgrid="false"
-   inkscape:zoom="1.8156143"
-   inkscape:cx="230.5005"
-   inkscape:cy="230.5005"
-   inkscape:window-width="1488"
-   inkscape:window-height="1041"
-   inkscape:window-x="182"
-   inkscape:window-y="0"
-   inkscape:window-maximized="0"
-   inkscape:current-layer="Layer_1" />
-<g
-   id="g12356"
-   style="fill:#69c89b;fill-opacity:1">
-	<path
-   style="fill:#69c89b;fill-opacity:1"
-   d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728   c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137   C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607   c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"
-   id="path12354" />
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="yt 1">
+<g id="g12356">
+<path id="path12354" d="M25.354 4.67798H6.64599C2.97551 4.67798 0 7.65349 0 11.324V20.676C0 24.3465 2.97551 27.322 6.64599 27.322H25.354C29.0245 27.322 32 24.3465 32 20.676V11.324C32 7.65349 29.0245 4.67798 25.354 4.67798ZM20.8594 16.455L12.109 20.6284C11.8759 20.7396 11.6065 20.5696 11.6065 20.3113V11.7037C11.6065 11.4417 11.8829 11.2719 12.1166 11.3903L20.8669 15.8246C21.1271 15.9564 21.1226 16.3295 20.8594 16.455Z" fill="url(#paint0_linear_18_45)"/>
 </g>
-<g
-   id="g12358">
 </g>
-<g
-   id="g12360">
-</g>
-<g
-   id="g12362">
-</g>
-<g
-   id="g12364">
-</g>
-<g
-   id="g12366">
-</g>
-<g
-   id="g12368">
-</g>
-<g
-   id="g12370">
-</g>
-<g
-   id="g12372">
-</g>
-<g
-   id="g12374">
-</g>
-<g
-   id="g12376">
-</g>
-<g
-   id="g12378">
-</g>
-<g
-   id="g12380">
-</g>
-<g
-   id="g12382">
-</g>
-<g
-   id="g12384">
-</g>
-<g
-   id="g12386">
-</g>
+<defs>
+<linearGradient id="paint0_linear_18_45" x1="16" y1="4.67798" x2="16" y2="27.322" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3B9B6E"/>
+<stop offset="0.0001" stop-color="#3B9B6D"/>
+<stop offset="1" stop-color="#417B5F"/>
+</linearGradient>
+</defs>
 </svg>
