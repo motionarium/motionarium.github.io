@@ -1,39 +1,66 @@
-/* global */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 html {
+    color: white;
+    background: rgb(7,32,0);
+    background: linear-gradient(225deg, rgba(7,32,0,1) 0%, rgba(64,125,46,1) 100%);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    color: white;
-    font-family: 'Inter', sans-serif;
-    cursor: default;
-    animation: back_anim 30s infinite linear;
+    font-family: 'Arial';
+    margin: 0;
+    padding: 0;
 }
 
-/* head */
-.head {
-    text-align: center;
+.center {
     position: absolute;
-    left: 50%; top: 50%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-svg[class="head"] { filter: drop-shadow(1px -1px 10px #49bc549d); }
-img[class="head"] { filter: opacity(50%); }
 
-/* social */
-div[class="head_social"] { font-size: 16px; width: 100%; }
-div[class="head_social"] span { margin: 50px; filter: opacity(50%); transition: 1s; }
-div[class="head_social"] span:hover { filter: opacity(100%); cursor: pointer; }
-div[class="head_social"] span[class="coming"] { filter: opacity(25%); }
-div[class="head_social"] a { text-decoration: none; color: white; filter: opacity(50%) }
+.glass .head { margin: 10px; filter: opacity(70%) }
+.glass .head h1 { margin: 10px; color: rgb(0, 207, 0); text-shadow: 0 0 12px rgba(54, 188, 53, 0.65) }
+.glass .head p { margin: 5px; font-weight: bold;}
 
-/* div[class="social"] { cursor: default; } */
+.glass {
+    display: grid;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    background: rgba(8, 8, 8, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.2px);
+    -webkit-backdrop-filter: blur(9.2px);
+    border: 1px solid rgba(8, 8, 8, 0.25); 
+}
+
+a { color: white; text-decoration: underline; }
 
 
-div[class="social"] img { height: 32px; margin: 5px; filter: opacity(50%); transition: 300ms linear; fill: white; } 
-div[class="social"] img:hover { height: 42px; filter: opacity(100%); cursor: pointer; }
+
+.glass .links img { vertical-align: middle; width: 20px; }
+.glass .body img { vertical-align: middle; width: 32px }
+.glass .links span, .glass .body h2 { vertical-align: middle; } 
 
 
 
-/* ds */
-div[id="ds"] { font-size: 16px; filter: opacity(50%); }
+
+.glass .links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+    background: rgba(87, 87, 87, 0.52);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.2px);
+    -webkit-backdrop-filter: blur(9.2px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    transition: 0.5s linear;
+}
+
+.glass .links a:hover { background: rgba(54, 148, 0, 0.52); border: 1px solid rgba(94, 255, 0, 0.25); }
+
+.glass .body a { transition: 0.5s linear; }
+.glass .body a:hover { color: rgb(82, 196, 82); transition: 0.5s linear; }
+

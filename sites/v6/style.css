@@ -1,0 +1,39 @@
+/* global */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+html {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    cursor: default;
+    animation: back_anim 30s infinite linear;
+}
+
+/* head */
+.head {
+    text-align: center;
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+}
+svg[class="head"] { filter: drop-shadow(1px -1px 10px #49bc549d); }
+img[class="head"] { filter: opacity(50%); }
+
+/* social */
+div[class="head_social"] { font-size: 16px; width: 100%; }
+div[class="head_social"] span { margin: 50px; filter: opacity(50%); transition: 1s; }
+div[class="head_social"] span:hover { filter: opacity(100%); cursor: pointer; }
+div[class="head_social"] span[class="coming"] { filter: opacity(25%); }
+div[class="head_social"] a { text-decoration: none; color: white; filter: opacity(50%) }
+
+/* div[class="social"] { cursor: default; } */
+
+
+div[class="social"] img { height: 32px; margin: 5px; filter: opacity(50%); transition: 300ms linear; fill: white; } 
+div[class="social"] img:hover { height: 42px; filter: opacity(100%); cursor: pointer; }
+
+
+
+/* ds */
+div[id="ds"] { font-size: 16px; filter: opacity(50%); }

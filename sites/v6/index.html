@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html style="background: background linear-gradient(0deg, var(--arc-background-simple-color, #388858) 0%, black 100%);">
+    <head>
+        <title>motionarium</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/icon.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <meta name="theme-color" content="#1bb566"> 
+    </head>
+    <body>
+    <h1>
+        <div class="head">
+            <div class="head_social">
+                <span><img src="https://moods.imood.com/display/uname-motionarium/fg-FFFFFF/trans-1/imood.gif"></span>
+            </div>
+            <img class="head" src="img/icon.png" height="128px">
+            <svg class="head" xmlns="http://www.w3.org/2000/svg" width="220px" height="39px">
+                <linearGradient id="head">
+                    <stop offset="0" stop-color="#FFFFFF00" stop-opacity="0" />
+                    <stop offset="0.25" stop-color="#FFFFFF" />
+                    <stop offset="0.75" stop-color="#FFFFFF" />
+                    <stop offset="1" stop-color="#FFFFFF00" stop-opacity="0" />
+                </linearGradient>
+                <text y="70%" fill="url(#head)">motionarium.</text>
+            </svg>
+            <br><br><br><br><br><br>
+            <div class="social">
+                <a href="https://t.me/hpbio/"><img src="img/tg.svg"></a>
+                <a onclick='copydiscord()'><img src="img/ds.svg"></a>
+                <br>
+                <a href="https://vk.com/oghackpepe/"><img src="img/vk.svg"></a>
+                <a href="https://github.com/motionarium"><img src="img/github.svg"></a>
+                <a href="https://www.youtube.com/channel/UCs8az7NZrJgYOXY_YdBtOpQ"><img src="img/yt.svg"></a>
+                <a rel="me" href="https://mastodon.ml/@motionarium"><img src="img/mastodon.svg"></a>
+                <a href="https://openvk.su/id2055"><img src="img/openvk.svg"></a>
+                <a href="https://vepurovk.xyz/id300"><img src="img/vepurovk.svg"></a>
+                <a href="../../fm"><img src="img/radio.svg"></a>
+            </div>
+            <div id="ds" style="display: none;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="265px" height="20px">
+                    <linearGradient id="discord">
+                        <stop offset="0.75" stop-color="#FFFFFF" />
+                        <stop offset="1" stop-color="#FFFFFF00" stop-opacity="0" />
+                    </linearGradient>
+                    <text y="70%" fill="url(#discord)">ID Discord is copied to clipboard!</text>
+                </svg>
+            </div>
+        </div>
+    </h1>
+    <script src="discord.js"></script>
+    <script>
+        let html = document.documentElement
+        let deg = 0
+        let tick = () => {
+            html.style.background = `background linear-gradient(${deg++ / 10 % 360}deg, #388858 0%, black 100%)`
+            requestAnimationFrame(tick)
+        }
+        requestAnimationFrame(tick)
+    </script>
+    </body>
+</html>
